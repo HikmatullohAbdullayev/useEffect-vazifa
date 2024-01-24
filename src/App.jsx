@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <Header/>
-    <body className="bg-slate-400">
+    <body className="bg-slate-400 ">
       
     <Main/>
     </body>
