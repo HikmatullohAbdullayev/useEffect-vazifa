@@ -1,11 +1,22 @@
-import { useState } from 'react'
+import Header from "./header/header"
+import Main from "./main/main"
+
+
+import { useState, useEffect } from 'react'
+import { BASE_URL } from "./constants/constants"
 
 
 function App() {
-
+  
+ 
   return (
     <>
-      <h1>aaa</h1>
+    <Header/>
+    <body className="bg-slate-400">
+      
+    <Main/>
+    </body>
+    
     </>
   )
 }
